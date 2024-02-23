@@ -1,0 +1,148 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #fffffF;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'raleway', bold;
+    text-decoration: none;
+    color: #4D5AE5;
+    font-size: 18px; 
+    text-transform: uppercase;
+    line-height: 2;
+    font-weight: 700;
+
+}
+
+.logo-st {
+    font-family: 'raleway', bold;
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.list {
+    list-style-type: none;
+}
+.list a:hover,
+.list a:focus {
+    color: #404BBF;
+}
+
+.list a {
+    color: #2E2F42;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 16px;
+    
+}
+
+.link-st:active {
+    text-decoration: underline;
+}
+
+.contact li {
+    list-style-type: none;
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: #404BBF;
+}
+
+.contact a {
+    color: #434455;
+    font-size: 12px;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    line-height: 16px;
+}
+
+.title {
+    text-align: center;
+    background-color: #2E2F42;
+}
+
+h1 {
+    color: #fffffF;
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 60px;
+}
+
+.btn {
+    color: #fffffF;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #4D5AE5;
+    cursor: pointer
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
+}
+
+.invisible {
+    color: #fffffF;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team li {
+    background-color: #fffffF;
+}
+
+.port-list li {
+    background-color: #E7E9FC;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    color: #434455;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+
+.logo-foot {
+    font-family: 'raleway', bold;
+    text-decoration: none;
+    color: #F4F4FD;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.info {
+    color: #F4F4FD;
+}
