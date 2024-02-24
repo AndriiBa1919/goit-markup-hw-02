@@ -1,9 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #fffffF;
     letter-spacing: 0.02em;
-    line-height: 24px;
     font-weight: 400;
 }
 
@@ -11,21 +10,22 @@ li {
     list-style-type: none;
 }
 
-.logo {
-    font-family: 'raleway', bold;
+.logo-st {
+    font-family: 'raleway', sans-serif;
     text-decoration: none;
-    color: #4D5AE5;
+    color: #4d5ae5;
     font-size: 18px; 
     text-transform: uppercase;
-    line-height: 2;
+    line-height: 1.17;
     font-weight: 700;
+    letter-spacing: 0.03em;
 
 }
 
-.logo-st {
+.logo {
     font-family: 'raleway', bold;
     text-decoration: none;
-    color: #2E2F42;
+    color: #2e2f42;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
@@ -41,19 +41,16 @@ li {
 
 .list a {
     color: #2E2F42;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    line-height: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     
 }
 
 .link-st:active {
     text-decoration: underline;
-}
-
-.contact li {
-    list-style-type: none;
 }
 
 .contact a:hover,
@@ -63,11 +60,11 @@ li {
 
 .contact a {
     color: #434455;
-    font-size: 12px;
+    font-size: 16px;
     text-decoration: none;
     font-style: normal;
-    letter-spacing: 0.04em;
-    line-height: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .title {
@@ -80,7 +77,8 @@ h1 {
     font-size: 56px;
     font-weight: 600;
     text-align: center;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .btn {
@@ -90,7 +88,8 @@ h1 {
     font-weight: 500;
     text-align: center;
     background-color: #4D5AE5;
-    cursor: pointer
+    cursor: pointer;
+    line-height: 1.5;
 }
 
 .btn:hover,
@@ -110,19 +109,48 @@ h1 {
     background-color: #fffffF;
 }
 
-.port-list li {
-    background-color: #E7E9FC;
-}
-
-h2 {
+.port-list h2 {
     font-size: 36px;
     font-weight: 600;
     text-align: center;
 }
 
+.port-list li {
+    background-color: #E7E9FC;
+}
+
+.team h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.team p{
+    font-size: 16px
+}
+
+.portfolio {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
 h3 {
     font-size: 20px;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 p {
@@ -135,12 +163,14 @@ footer {
 }
 
 .logo-foot {
-    font-family: 'raleway', bold;
+    font-family: 'raleway', sans-serif;
     text-decoration: none;
     color: #F4F4FD;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .info {
