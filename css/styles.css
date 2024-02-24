@@ -69,6 +69,11 @@ li {
     line-height: 1.5;
 }
 
+.contact:hover,
+.contact:focus {
+    color: #404bbf;
+}
+
 .title {
     text-align: center;
     background-color: #2E2F42;
