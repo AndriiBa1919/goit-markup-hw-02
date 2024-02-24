@@ -55,8 +55,8 @@ li {
     text-decoration: underline;
 }
 
-.contact a:hover,
-.contact a:focus {
+.link-st:hover,
+.link-st:focus {
     color: #404BBF;
 }
 
