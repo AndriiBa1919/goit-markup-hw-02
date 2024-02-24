@@ -10,7 +10,7 @@ li {
     list-style-type: none;
 }
 
-.list .logo-st {
+.logo-st {
     font-family: 'raleway', sans-serif;
     text-decoration: none;
     color: #4d5ae5;
@@ -26,9 +26,11 @@ li {
     font-family: 'raleway', sans-serif;
     text-decoration: none;
     color: #2e2f42;
-    font-size: 18px;
+    font-size: 18px; 
     text-transform: uppercase;
+    line-height: 1.17;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .list {
